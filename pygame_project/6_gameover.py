@@ -4,7 +4,7 @@ import os
 # 기본 초기화
 pygame.init()
 
-#화면 크기설정
+#화면 크기설정 
 screen_width = 640
 screen_height = 480
 screen = pygame.display.set_mode((screen_width,screen_height))
