@@ -8,4 +8,4 @@ for i in per:
     else:
         print("성공")
     finally:
-        print("다음단계로")
+        print("NEXT LEVEL")
