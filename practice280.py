@@ -9,6 +9,6 @@
 #         print("성공")
 #     finally:
 #         print("NEXT LEVEL")
-N = ['1','8']
-N[0].replace('1','2')
+N = [1,8]
+N[0].replace(1,2)
 print(N)

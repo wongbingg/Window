@@ -30,7 +30,7 @@ stage_size = stage.get_rect().size
 stage_height = stage_size[1] #스테이지의 높이 위에 캐릭터를 두기 위해 사용
 
 #캐릭터 만들기
-character = pygame.image.load(os.path.join(image_path,"character2.png"))
+character = pygame.image.load(os.path.join(image_path,"character.png"))
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
@@ -55,10 +55,10 @@ weapon_speed = 10
 
 #공 만들기
 ball_images = [
-    pygame.image.load(os.path.join(image_path,"enemy1.png")),
-    pygame.image.load(os.path.join(image_path,"enemy2.png")),
-    pygame.image.load(os.path.join(image_path,"enemy3.png")),
-    pygame.image.load(os.path.join(image_path,"enemy4.png"))
+    pygame.image.load(os.path.join(image_path,"ballon1.png")),
+    pygame.image.load(os.path.join(image_path,"ballon2.png")),
+    pygame.image.load(os.path.join(image_path,"ballon3.png")),
+    pygame.image.load(os.path.join(image_path,"ballon4.png"))
 ]
 
 # 공 크기에 따른 최초 스피드

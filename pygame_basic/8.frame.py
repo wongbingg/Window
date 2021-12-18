@@ -23,7 +23,7 @@ clock = pygame.time.Clock()
 background = pygame.image.load("C:\\WB\\pygame_basic\\background.png")
 
 #스프라이트 불러오기
-character = pygame.image.load("C:\\WB\\pygame_basic\\character2.png")
+character = pygame.image.load("C:\\WB\\pygame_basic\\character.png")
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
@@ -38,7 +38,7 @@ character_speed = 0.7
 enemy_speed = 5
 
 #적
-enemy = pygame.image.load("C:\\WB\\pygame_basic\\enemy2.png")
+enemy = pygame.image.load("C:\\WB\\pygame_basic\\enemy.png")
 enemy_size = enemy.get_rect().size
 enemy_width = enemy_size[0]
 enemy_height = enemy_size[1]
